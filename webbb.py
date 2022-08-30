@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import plotly.express as px
+import plotly.graph_objects as go
 
 t = np.linspace(0, 0.05, 1000)
 v = 220*np.sqrt(2)*np.sin(2*np.pi*60*t)
